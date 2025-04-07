@@ -7,5 +7,6 @@ evaluate~=0.4.3
 pandas~=2.2.3
 tree-sitter==0.23.2
 tree-sitter-python==0.23.2
+sacrebleu
 git+https://github.com/k4black/codebleu.git
 numpy~=2.2.4

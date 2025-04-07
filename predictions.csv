@@ -1,0 +1,72 @@
+prefix,suffix,missing,predictions,chrf,codebleu,exact_match
+  ,        sleep(5),"  try:
+"," mock_service.respond_404()
+",2.9761904761904763,0.25,0.0
+  ,"        signal.signal(signal.SIGCHLD, handle_child_death)","      sleep(1)
+","     sleep(3)
+",61.48809523809524,0.5,0.0
+    log(,"def log_net(lvl_callable, message, service, port):","message, ""DEBUG"")
+","message, ""DEBUG"")
+",100.0,0.6419286129883564,1.0
+"    lvl_callable(f""com",,"munication with {service} at {port}: {message}"")
+","{service} {port}"", message)
+",40.01922594833498,0.41020620726159657,0.0
+    def ,        resp = requests.get(link),"confirm_alert(self, link: str) -> bool:
+","    def   close(self):
+",12.74663875367402,0.25,0.0
+   ,"            port=DB_PORT,","         host=DB_HOST,
+","        host=DB_HOST,
+",100.0,0.5553941064735807,0.0
+response_,"response_modes = {'normal', 'timeout', '404'}","mode = 'normal'
+","= web.Response(text='hello world')
+",12.031298474208196,0.3346554841616875,0.0
+    r,"signal.signal(signal.SIGTERM, handle_SIGINT)","aise GracefulExit()
+","= web.Response()
+",6.821820805989671,0.2916666666666667,0.0
+    ,        payload = example_payload.copy(),"    test_client = await aiohttp_client(setup_app())
+","   test_client = await aiohttp_client(setup_app())
+",100.0,1.0,0.0
+import,import asyncio," pytest
+","aiohttp
+",8.064516129032258,0.5,0.0
+    as,def test_db_access_get_jobs(postgresql):,"sert result[0] == job_id
+","= cursor.fetchone()
+",7.352941176470587,0.25,0.0
+    insert_exam,    stateful_set_index = 1,"ple_jobs(postgresql)
+","ert_jobs(postgresql)
+",83.52446680426556,0.5,0.0
+        _o,"        logging.error(""Error setting up Google Cloud logging: %s"", e)","ptimizations()
+","s.exc_info()
+",8.675719591457753,0.3,0.0
+        # for speed ,        logging._srcfile = None ,"up (avoiding sys._getframe() calls)
+","in the log file
+",7.165037494078362,0.25,0.0
+sm,smtp_port = 587 if not smtp_port else int(smtp_port),"tp_port = os.environ.get(""SMTP_PORT"")
+","= smtplib.SMTP(smtp_server, smtp_port)
+",24.084488403486674,0.3450721508283542,0.0
+                HT,            return None,"TP_CONNS_ACTIVE_CTR.dec()
+","= 100000000000000000
+",0.0,0.25,0.0
+APP_POR,"ERR_MSG_CREATE_POSITIVE_INT = ""fields 'period', 'alerting_window' and 'response_time' should be positive integers""","T = 8080
+","= os.environ.get(""APP_POR"")
+",1.6666666666666667,0.3081356620367555,0.0
+DB_,"APP_HOST = os.environ.get(""APP_HOST"")","PORT = 5432
+","= os.environ.get(""DB_NAME"")
+",1.3440860215053763,0.3081356620367555,0.0
+from aiohttp_sw,import asyncio,"agger import setup_swagger
+","import setup_swagger
+",80.35721361068376,0.555793893524245,0.0
+     ,        mail1 = json['primary_email'],"   url = json['url']
+","  url = json['url']
+",100.0,0.7643161313935813,0.0
+ ,"        (job_ids,)","       """""",
+","      """""",
+",100.0,0.5553941064735807,0.0
+       ,        return None," print(error)
+","raise error
+",27.628102678159372,0.25,0.0
+PINGS_SENT_CTR = Counter(,"SUCCESSFUL_PINGS_CTR = Counter('successful_pings_total', 'Total Pings')","'pings_sent_total', 'Total Pings')
+","'pings_sent_ctr', 'Total Pings sent')
+",69.04145058602545,0.5393493109351468,0.0
+JOBS_ACTIVE_,,"CTR = Gauge('jobs_active_total', 'Total Jobs')","= Gauge('jobs_active_total', 'Total jobs')
+",84.61034285137266,0.5533509188961151,0.0
